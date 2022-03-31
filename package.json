@@ -1,12 +1,15 @@
 {
-  "name": "@solana/spl-token-registry",
-  "version": "0.2.3135",
-  "description": "Solana Token Registry",
+  "name": "@ngocbv/rpl-token-registry",
+  "version": "0.2.3137",
+  "description": "Renec Token Registry",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
   "module": "dist/module/index.js",
-  "repository": "https://github.com/solana-labs/token-list",
-  "license": "Apache",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remitano/rpl-token-registry.git"
+  },
+  "license": "Apache-2.0",
   "keywords": [],
   "scripts": {
     "prepublish": "run-s build:*",
@@ -37,14 +40,14 @@
     "version": "standard-version",
     "reset-hard": "git clean -dfx && git reset --hard && npm i",
     "prepare-release": "run-s reset-hard test cov:check doc:html version doc:publish",
-    "purge:cdn": "run-s purge:cdn:*",
-    "purge:cdn:solana": "npx req https://purge.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/solana.tokenlist.json"
+    "purge:cdn": "run-s purge:cdn:*"
   },
   "engines": {
     "node": ">=10"
   },
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@types/node": "^15.0.2",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
@@ -106,5 +109,18 @@
   },
   "dependencies": {
     "cross-fetch": "3.0.6"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/remitano/rpl-token-registry/issues"
+  },
+  "homepage": "https://github.com/remitano/rpl-token-registry#readme",
+  "author": "Renec developers",
+  "plugins": [
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ]
+  ]
 }
