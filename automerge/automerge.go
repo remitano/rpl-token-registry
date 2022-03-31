@@ -57,7 +57,7 @@ type Automerger struct {
 }
 
 const (
-	tokenlistPath = "src/tokens/solana.tokenlist.json"
+	tokenlistPath = "src/tokens/renec.tokenlist.json"
 	appId         = int64(152533)
 )
 
@@ -340,12 +340,12 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 			}
 
 			assets = append(assets, newFile)
-		case newFile == "src/tokens/solana.tokenlist.json":
+		case newFile == "src/tokens/renec.tokenlist.json":
 			if tlDiff != nil {
 				return nil, nil, fmt.Errorf("found multiple tokenlist diffs")
 			}
 			tlDiff = z
-			klog.V(1).Infof("found solana.tokenlist.json")
+			klog.V(1).Infof("found renec.tokenlist.json")
 		case newFile == "CHANGELOG.md" || newFile == "package.json":
 			klog.V(1).Infof("ignoring spurious %s change", newFile)
 			continue

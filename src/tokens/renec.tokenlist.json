@@ -1,8 +1,8 @@
 {
-  "name": "Solana Token List",
-  "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
+  "name": "Renec Token List",
+  "logoURI": "https://img-portal-prod.s3.amazonaws.com/uploads/image/attachment/33974/logo512.png",
   "keywords": [
-    "solana",
+    "renec",
     "spl"
   ],
   "tags": {
@@ -17,10 +17,6 @@
     "lp-token": {
       "name": "lp-token",
       "description": "Asset representing liquidity provider token"
-    },
-    "wrapped-sollet": {
-      "name": "wrapped-sollet",
-      "description": "Asset wrapped using sollet bridge"
     },
     "wrapped": {
       "name": "wrapped",

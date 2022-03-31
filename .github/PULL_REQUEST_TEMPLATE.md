@@ -12,7 +12,7 @@ _This repository is managed using an auto merge action. Please ensure your PR ha
 
 ## **Please provide the following information for your token.**
 
-Please include change to the `src/tokens/solana.tokenlist.json` file in the PR.
+Please include change to the `src/tokens/renec.tokenlist.json` file in the PR.
 DON'T modify any other token on the list.
 
 At minimum each entry should have

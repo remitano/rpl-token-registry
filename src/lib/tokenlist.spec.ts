@@ -58,7 +58,7 @@ test('Token list throws error when calling filterByClusterSlug with slug that do
 test('Token list is a valid json', async (t) => {
   t.notThrows(() => {
     const content = fs
-      .readFileSync('./src/tokens/solana.tokenlist.json')
+      .readFileSync('./src/tokens/renec.tokenlist.json')
       .toString();
     JSON.parse(content.toString());
   });
