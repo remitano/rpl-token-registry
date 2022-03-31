@@ -3,7 +3,7 @@ package tokenlist
 // Solana-specific derivative of https://uniswap.org/tokenlist.schema.json,
 // converted to a CUE schema from JSON Schema.
 //
-// The current solana.tokenlist.json does not validate against the
+// The current renec.tokenlist.json does not validate against the
 // Uniswap upstream schema! Deviations are marked INCOMPATIBLE.
 
 import (

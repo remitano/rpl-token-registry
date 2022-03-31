@@ -1,6 +1,6 @@
 import { fetch } from 'cross-fetch';
 
-import tokenlist from './../tokens/solana.tokenlist.json';
+import tokenlist from './../tokens/renec.tokenlist.json';
 
 export enum ENV {
   MainnetBeta = 101,
@@ -61,7 +61,7 @@ export const CLUSTER_SLUGS: { [id: string]: ENV } = {
 
 export class GitHubTokenListResolutionStrategy {
   repositories = [
-    'https://raw.githubusercontent.com/solana-labs/token-list/main/src/tokens/solana.tokenlist.json',
+    'https://raw.githubusercontent.com/remitano/rpl-token-registry/master/src/tokens/renec.tokenlist.json?token=GHSAT0AAAAAABIYQJOCZ6PEOQIRYOBXAGW2YSOTNNQ',
   ];
 
   resolve = () => {
@@ -71,7 +71,7 @@ export class GitHubTokenListResolutionStrategy {
 
 export class CDNTokenListResolutionStrategy {
   repositories = [
-    'https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/solana.tokenlist.json',
+    'https://cdn.jsdelivr.net/gh/remitano/rpl-token-registry@main/src/tokens/renec.tokenlist.json',
   ];
 
   resolve = () => {
@@ -80,7 +80,7 @@ export class CDNTokenListResolutionStrategy {
 }
 
 export class SolanaTokenListResolutionStrategy {
-  repositories = ['https://token-list.solana.com/solana.tokenlist.json'];
+  repositories = ['https://token-list.solana.com/renec.tokenlist.json'];
 
   resolve = () => {
     return queryJsonFiles(this.repositories);
@@ -130,7 +130,7 @@ export class TokenListProvider {
   };
 
   resolve = async (
-    strategy: Strategy = Strategy.CDN
+    strategy: Strategy = Strategy.GitHub
   ): Promise<TokenListContainer> => {
     return new TokenListContainer(
       await TokenListProvider.strategies[strategy].resolve()
@@ -139,7 +139,7 @@ export class TokenListProvider {
 }
 
 export class TokenListContainer {
-  constructor(private tokenList: TokenInfo[]) {}
+  constructor(private tokenList: TokenInfo[]) { }
 
   filterByTag = (tag: string) => {
     return new TokenListContainer(
