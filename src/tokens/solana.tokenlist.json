@@ -57,6 +57,19 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
+    {
+      "chainId": 102,
+      "address": "vaXGtV2RhVvvigLDd77cZa7NR3omLLe9wStYiogGPs8",
+      "symbol": "PAN",
+      "name": "Pancake Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/remitano/rpl-token-registry/master/assets/mainnet/vaXGtV2RhVvvigLDd77cZa7NR3omLLe9wStYiogGPs8/logo.png",
+      "tags": [
+        "currency"
+      ],
+      "extensions": {
+      }
+    }
   ],
   "version": {
     "major": 0,

@@ -1,6 +1,6 @@
 {
   "name": "@ngocbv/rpl-token-registry",
-  "version": "0.2.3136",
+  "version": "0.2.3137",
   "description": "Renec Token Registry",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
