@@ -65,6 +65,19 @@
       ],
       "extensions": {
       }
+    },
+    {
+      "chainId": 102,
+      "address": "jwXRUeahAbU2iaUSic3TdgbPEezcmejY7Fv5Savpg4w",
+      "symbol": "USDT",
+      "name": "Tether USDT",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/remitano/rpl-token-registry/master/assets/mainnet/jwXRUeahAbU2iaUSic3TdgbPEezcmejY7Fv5Savpg4w/logo.svg",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+      }
     }
   ],
   "version": {

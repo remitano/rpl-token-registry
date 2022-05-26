@@ -61,7 +61,7 @@ export const CLUSTER_SLUGS: { [id: string]: ENV } = {
 
 export class GitHubTokenListResolutionStrategy {
   repositories = [
-    'https://raw.githubusercontent.com/remitano/rpl-token-registry/master/src/tokens/renec.tokenlist.json?token=GHSAT0AAAAAABIYQJOCZ6PEOQIRYOBXAGW2YSOTNNQ',
+    'https://raw.githubusercontent.com/remitano/rpl-token-registry/master/src/tokens/renec.tokenlist.json',
   ];
 
   resolve = () => {
