@@ -69,8 +69,8 @@
     {
       "chainId": 102,
       "address": "jwXRUeahAbU2iaUSic3TdgbPEezcmejY7Fv5Savpg4w",
-      "symbol": "USDT",
-      "name": "Tether USDT",
+      "symbol": "rUSDT",
+      "name": "Wrapped Tether USDT",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/remitano/rpl-token-registry/master/assets/mainnet/jwXRUeahAbU2iaUSic3TdgbPEezcmejY7Fv5Savpg4w/logo.svg",
       "tags": [
@@ -78,7 +78,59 @@
       ],
       "extensions": {
       }
-    }
+    },
+    {
+      "chainId": 102,
+      "address": "Fzyyy8SQ6K9NTJ7vCemZmxx4pexL8ePuuK7SkU8B7BhU",
+      "symbol": "rUSDC",
+      "name": "Wrapped USD Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/remitano/rpl-token-registry/master/assets/mainnet/Fzyyy8SQ6K9NTJ7vCemZmxx4pexL8ePuuK7SkU8B7BhU/logo.svg",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+      }
+    },
+    {
+      "chainId": 102,
+      "address": "MsT76FqGo4JDxLkq73X872VWN6yEWsRBpKUAyY5LFTR",
+      "symbol": "VNDR",
+      "name": "Vietnam Dong",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/remitano/rpl-token-registry/master/assets/mainnet/MsT76FqGo4JDxLkq73X872VWN6yEWsRBpKUAyY5LFTR/logo.svg",
+      "tags": [
+        "fiatcoin"
+      ],
+      "extensions": {
+      }
+   },
+    {
+      "chainId": 102,
+      "address": "FhYxQy2GCsVK5rZgtvYDpKuytPXv2R34cPFQg3QDvjT7",
+      "symbol": "NGNR",
+      "name": "Nigeria Naira",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/remitano/rpl-token-registry/master/assets/mainnet/FhYxQy2GCsVK5rZgtvYDpKuytPXv2R34cPFQg3QDvjT7/logo.svg",
+      "tags": [
+        "fiatcoin"
+      ],
+      "extensions": {
+      }
+    },
+    {
+      "chainId": 102,
+      "address": "6HXkLhS4khE9RzGpNytzhuaon3egDK5mjBesUeKzNjEw",
+      "symbol": "MYRR",
+      "name": "Malaysia Ringgit",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/remitano/rpl-token-registry/master/assets/mainnet/6HXkLhS4khE9RzGpNytzhuaon3egDK5mjBesUeKzNjEw/logo.svg",
+      "tags": [
+        "fiatcoin"
+      ],
+      "extensions": {
+      }
+    },
   ],
   "version": {
     "major": 0,
