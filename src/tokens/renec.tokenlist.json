@@ -118,6 +118,19 @@
       "extensions": {
       }
     },
+     {
+      "chainId": 102,
+      "address": "3oiJ7unPuafTXu6DRzV9h8f1Xx6HCfsKYb2Wxij2ZRUZ",
+      "symbol": "VNLA",
+      "name": "VanillaSwap Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/remitano/rpl-token-registry/master/assets/mainnet/3oiJ7unPuafTXu6DRzV9h8f1Xx6HCfsKYb2Wxij2ZRUZ/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+      }
+   },
     {
       "chainId": 102,
       "address": "6HXkLhS4khE9RzGpNytzhuaon3egDK5mjBesUeKzNjEw",
