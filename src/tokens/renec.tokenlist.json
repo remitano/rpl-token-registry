@@ -118,6 +118,21 @@
       "extensions": {
       }
     },
+    	{
+  "chainId": 102,
+  "address": "2Cx8kN9R1Anoh8HgoPaPPRE5FjQhgKNNem7Z6nKAc1p8",
+  "symbol": "MemeFi",
+  "name": "Meme Finance",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/remitano/rpl-token-registry/master/assets/mainnet/2Cx8kN9R1Anoh8HgoPaPPRE5FjQhgKNNem7Z6nKAc1p8/logo.png.jpg",
+  "tags": [
+    "community-token"
+  ],
+  "extensions": {
+       "discord": "https://discord.gg/gVCbUqNQrZ",
+        "twitter": "https://twitter.com/MemeFi01"
+  }
+},
     {
       "chainId": 102,
       "address": "6HXkLhS4khE9RzGpNytzhuaon3egDK5mjBesUeKzNjEw",
